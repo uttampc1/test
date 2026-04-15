@@ -625,7 +625,7 @@ config.yaml ───────────────────┐
             ┌──────────────────┼──────────────────┐
             ▼                  ▼                  ▼
    internal/walker/    internal/diff/     internal/guides/
-   └── walk.go         ├── engine.go      ├── guides.go
+   └── walk.go         ├── diff.go        ├── guides.go
                        ├── scope.go       ├── builtin.go
                        └── types.go       └── render.go
             │                  │
